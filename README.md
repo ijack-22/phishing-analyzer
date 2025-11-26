@@ -12,7 +12,33 @@ A Python-based cybersecurity tool to detect and analyze potential phishing URLs 
 - **Risk Scoring** - Comprehensive risk assessment with clear indicators
 - **Interactive CLI** - Easy-to-use command line interface
 
-## 🚀 Quick Start
+## Detection Methods
+
+    Domain Analysis: WHOIS lookup, creation date, TLD reputation
+
+    SSL Analysis: Certificate validity, expiration, issuer trust
+
+    URL Patterns: Suspicious keywords, shorteners, special characters
+
+    Threat Intelligence: VirusTotal multi-engine scanning
+    
+    Risk Scoring
+
+    🟢 0-2: Low risk - Legitimate website
+
+    🟡 2-5: Medium risk - Suspicious indicators
+
+    🔴 5+: High risk - Likely phishing/malicious
+
+
+    Contributing
+
+Contributions welcome! Please feel free to submit issues, feature requests, or pull requests.
+
+ ##Disclaimer
+
+This tool is for educational and defensive security purposes only. Always use responsibly and in compliance with applicable laws.
+
 
 ### Prerequisites
 - Python 3.7+
