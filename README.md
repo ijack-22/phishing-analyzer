@@ -1,7 +1,4 @@
-# Delete the empty README.md
-rm README.md
 
-# Create new README.md with content
 cat > README.md << 'EOF'
 # 🛡️ Phishing Link Analyzer
 
