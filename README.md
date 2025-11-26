@@ -1,5 +1,4 @@
 
-cat > README.md << 'EOF'
 # 🛡️ Phishing Link Analyzer
 
 A Python-based cybersecurity tool to detect and analyze potential phishing URLs through multiple detection methods.
